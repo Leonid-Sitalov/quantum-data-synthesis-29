@@ -12,70 +12,70 @@ export default function Footer() {
           >
             <div className="flex flex-col sm:flex-row shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-2">
-                <h3 className="mb-2 uppercase text-[#22c55e] text-xs sm:text-sm tracking-[0.2em] font-semibold">
+                <h3 className="mb-2 uppercase text-[#00ff3c] text-xs sm:text-sm tracking-[0.2em] font-bold">
                   Направления
                 </h3>
                 <a
                   href="#services"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   Горнорудная отрасль
                 </a>
                 <a
                   href="#services"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   Аграрная промышленность
                 </a>
                 <a
                   href="#services"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   Электроснабжение
                 </a>
                 <a
                   href="#services"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   Слаботочные системы
                 </a>
               </div>
               <div className="flex flex-col gap-2">
-                <h3 className="mb-2 uppercase text-[#22c55e] text-xs sm:text-sm tracking-[0.2em] font-semibold">
+                <h3 className="mb-2 uppercase text-[#00ff3c] text-xs sm:text-sm tracking-[0.2em] font-bold">
                   Компания
                 </h3>
                 <a
                   href="#about"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   О проекте RAI
                 </a>
                 <a
                   href="#projects"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   Реализованные объекты
                 </a>
                 <a
                   href="#contact"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   Контакты
                 </a>
               </div>
               <div className="flex flex-col gap-2">
-                <h3 className="mb-2 uppercase text-[#22c55e] text-xs sm:text-sm tracking-[0.2em] font-semibold">
+                <h3 className="mb-2 uppercase text-[#00ff3c] text-xs sm:text-sm tracking-[0.2em] font-bold">
                   Связаться
                 </h3>
                 <a
                   href="mailto:info@rai-project.ru"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   info@rai-project.ru
                 </a>
                 <a
                   href="tel:+70000000000"
-                  className="text-white hover:text-[#22c55e] transition-colors duration-300 text-sm sm:text-base"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
                   +7 (000) 000-00-00
                 </a>
@@ -85,8 +85,11 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[22vw] sm:text-[20vw] lg:text-[18vw] leading-[0.8] text-white font-black tracking-tighter">
-                <span className="text-[#22c55e]">R</span>AI
+              <h1
+                className="text-[22vw] sm:text-[20vw] lg:text-[18vw] leading-[0.8] text-white font-black tracking-tighter inline-block"
+                style={{ transform: "skewX(-12deg)" }}
+              >
+                <span className="text-[#00ff3c] drop-shadow-[0_0_30px_rgba(0,255,60,0.5)]">R</span>AI
               </h1>
               <div className="flex flex-col items-start sm:items-end gap-1">
                 <p className="text-white text-sm sm:text-base font-semibold">

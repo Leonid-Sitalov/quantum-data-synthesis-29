@@ -19,8 +19,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/55cad316-9392-453f-927d-0b8cefce0524/files/8095ec1d-3bc1-4f35-9206-8b7ee0c03625.jpg"
-          alt="Горные вершины и аграрные долины"
+          src="https://cdn.poehali.dev/projects/55cad316-9392-453f-927d-0b8cefce0524/files/0dd00c65-a521-4a30-91b3-134610c63ccf.jpg"
+          alt="Заснеженные вершины гор и зелёные долины"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/70" />
@@ -28,16 +28,19 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white px-6">
         <div className="mb-6 inline-block">
-          <span className="text-[#22c55e] text-lg md:text-xl font-bold tracking-[0.3em] uppercase">
+          <span className="text-[#00ff3c] text-lg md:text-xl font-bold tracking-[0.3em] uppercase">
             #Проект
           </span>
         </div>
-        <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-tight mb-4 leading-none">
-          <span className="text-[#22c55e]">R</span>
+        <h1
+          className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-tight mb-4 leading-none inline-block"
+          style={{ transform: "skewX(-12deg)" }}
+        >
+          <span className="text-[#00ff3c] drop-shadow-[0_0_25px_rgba(0,255,60,0.5)]">R</span>
           <span className="text-white">A</span>
           <span className="text-neutral-400">i</span>
         </h1>
-        <div className="h-[2px] w-32 bg-[#22c55e] mx-auto mb-6" />
+        <div className="h-[2px] w-32 bg-[#00ff3c] mx-auto mb-6" />
         <h2 className="text-xl md:text-2xl lg:text-3xl font-light tracking-[0.2em] uppercase mb-6 text-white">
           Республика Автоматики Интегра
         </h2>
@@ -48,7 +51,7 @@ export default function Hero() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#services"
-            className="bg-[#22c55e] text-black px-8 py-3 text-sm uppercase tracking-wider font-semibold hover:bg-white transition-colors duration-300"
+            className="bg-[#00ff3c] text-black px-8 py-3 text-sm uppercase tracking-wider font-bold hover:bg-white transition-colors duration-300 shadow-[0_0_30px_rgba(0,255,60,0.4)]"
           >
             Наши направления
           </a>

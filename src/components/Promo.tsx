@@ -26,14 +26,14 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 left-6 text-[#22c55e] uppercase z-10 text-sm md:text-base lg:text-lg tracking-[0.3em] font-semibold">
+      <h3 className="absolute top-12 left-6 text-[#00ff3c] uppercase z-10 text-sm md:text-base lg:text-lg tracking-[0.3em] font-bold drop-shadow-[0_0_15px_rgba(0,255,60,0.5)]">
         Интеграция без границ
       </h3>
 
       <div className="absolute bottom-12 right-6 left-6 z-10 max-w-6xl mx-auto">
         <p className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-tight">
-          От <span className="text-[#22c55e] font-bold">гранитных вершин</span> до{" "}
-          <span className="text-[#22c55e] font-bold">зелёных долин</span> — объединяем технологии,
+          От <span className="text-[#00ff3c] font-bold drop-shadow-[0_0_15px_rgba(0,255,60,0.5)]">гранитных вершин</span> до{" "}
+          <span className="text-[#00ff3c] font-bold drop-shadow-[0_0_15px_rgba(0,255,60,0.5)]">зелёных долин</span> — объединяем технологии,
           энергию и данные в одну управляемую систему.
         </p>
       </div>

@@ -39,12 +39,12 @@ export default function Featured() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between mb-16 gap-6">
           <div className="max-w-2xl">
-            <h3 className="uppercase mb-4 text-sm tracking-[0.3em] text-[#22c55e] font-semibold">
+            <h3 className="uppercase mb-4 text-sm tracking-[0.3em] text-[#00ff3c] font-bold">
               Направления деятельности
             </h3>
             <h2 className="text-4xl lg:text-6xl font-bold text-neutral-900 leading-tight">
               Автоматизация <br />
-              <span className="text-[#22c55e]">от вершин до полей</span>
+              <span className="text-[#00ff3c] drop-shadow-[0_0_12px_rgba(0,255,60,0.3)]">от вершин до полей</span>
             </h2>
           </div>
           <p className="text-lg text-neutral-600 max-w-md leading-relaxed">
@@ -58,11 +58,11 @@ export default function Featured() {
               key={service.title}
               className="group bg-white p-8 lg:p-10 hover:bg-neutral-900 transition-colors duration-500 cursor-pointer"
             >
-              <div className="w-14 h-14 rounded-full bg-[#22c55e]/10 flex items-center justify-center mb-6 group-hover:bg-[#22c55e] transition-colors duration-500">
+              <div className="w-14 h-14 rounded-full bg-[#00ff3c]/15 flex items-center justify-center mb-6 group-hover:bg-[#00ff3c] transition-colors duration-500">
                 <Icon
                   name={service.icon}
                   size={28}
-                  className="text-[#22c55e] group-hover:text-black transition-colors duration-500"
+                  className="text-[#00ff3c] group-hover:text-black transition-colors duration-500"
                 />
               </div>
               <h4 className="text-xl font-bold text-neutral-900 mb-3 group-hover:text-white transition-colors duration-500">
@@ -84,7 +84,7 @@ export default function Featured() {
             />
           </div>
           <div className="flex-1">
-            <h3 className="uppercase mb-4 text-sm tracking-[0.3em] text-[#22c55e] font-semibold">
+            <h3 className="uppercase mb-4 text-sm tracking-[0.3em] text-[#00ff3c] font-bold">
               Слаботочные системы
             </h3>
             <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight font-light">
@@ -92,7 +92,7 @@ export default function Featured() {
             </p>
             <a
               href="#contact"
-              className="inline-block bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-[#22c55e] hover:text-black hover:border-[#22c55e] uppercase tracking-wide font-semibold"
+              className="inline-block bg-[#00ff3c] text-black border border-[#00ff3c] px-6 py-3 text-sm transition-all duration-300 hover:bg-black hover:text-[#00ff3c] hover:border-[#00ff3c] uppercase tracking-wide font-bold shadow-[0_0_20px_rgba(0,255,60,0.3)]"
             >
               Запросить проект
             </a>
