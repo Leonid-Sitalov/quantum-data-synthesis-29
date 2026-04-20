@@ -18,21 +18,25 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/55cad316-9392-453f-927d-0b8cefce0524/files/b482a4eb-8b35-4ad7-a1b0-eea75adab237.jpg"
+            alt="Интегрированная автоматизация"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/50" />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 left-6 text-[#22c55e] uppercase z-10 text-sm md:text-base lg:text-lg tracking-[0.3em] font-semibold">
+        Интеграция без границ
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
-      </p>
+      <div className="absolute bottom-12 right-6 left-6 z-10 max-w-6xl mx-auto">
+        <p className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-tight">
+          От <span className="text-[#22c55e] font-bold">гранитных вершин</span> до{" "}
+          <span className="text-[#22c55e] font-bold">зелёных долин</span> — объединяем технологии,
+          энергию и данные в одну управляемую систему.
+        </p>
+      </div>
     </div>
   );
 }
