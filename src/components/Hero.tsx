@@ -1,5 +1,6 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
+import RaiLogo from "@/components/RaiLogo";
 
 export default function Hero() {
   const container = useRef<HTMLDivElement>(null);
@@ -23,27 +24,14 @@ export default function Hero() {
           alt="Заснеженные вершины гор и зелёные долины"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/80" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white px-6">
-        <div className="mb-6 inline-block">
-          <span className="text-[#00ff3c] text-lg md:text-xl font-bold tracking-[0.3em] uppercase">
-            #Проект
-          </span>
-        </div>
-        <h1
-          className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-tight mb-4 leading-none inline-block"
-          style={{ transform: "skewX(-12deg)" }}
-        >
-          <span className="text-[#00ff3c] drop-shadow-[0_0_25px_rgba(0,255,60,0.5)]">R</span>
-          <span className="text-white">A</span>
-          <span className="text-neutral-400">i</span>
-        </h1>
-        <div className="h-[2px] w-32 bg-[#00ff3c] mx-auto mb-6" />
-        <h2 className="text-xl md:text-2xl lg:text-3xl font-light tracking-[0.2em] uppercase mb-6 text-white">
-          Республика Автоматики Интегра
-        </h2>
+      <div className="relative z-10 flex flex-col items-center text-center text-white px-6">
+        <RaiLogo size="xl" inverted />
+
+        <div className="h-[2px] w-32 bg-[#00ff3c] mx-auto my-8" />
+
         <p className="text-base md:text-lg max-w-2xl mx-auto opacity-90 leading-relaxed">
           Проекты автоматизации любой сложности для горнорудной и аграрной промышленности —
           от месторождения до поля

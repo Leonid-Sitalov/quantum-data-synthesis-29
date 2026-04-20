@@ -1,3 +1,5 @@
+import RaiLogo from "@/components/RaiLogo";
+
 export default function Footer() {
   return (
     <div
@@ -84,17 +86,9 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1
-                className="text-[22vw] sm:text-[20vw] lg:text-[18vw] leading-[0.8] text-white font-black tracking-tighter inline-block"
-                style={{ transform: "skewX(-12deg)" }}
-              >
-                <span className="text-[#00ff3c] drop-shadow-[0_0_30px_rgba(0,255,60,0.5)]">R</span>AI
-              </h1>
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 sm:gap-0">
+              <RaiLogo size="xl" inverted />
               <div className="flex flex-col items-start sm:items-end gap-1">
-                <p className="text-white text-sm sm:text-base font-semibold">
-                  Республика Автоматики Интегра
-                </p>
                 <p className="text-neutral-500 text-xs sm:text-sm">
                   © {new Date().getFullYear()} Проект RAI. Все права защищены.
                 </p>
