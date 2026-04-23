@@ -70,10 +70,10 @@ export default function Footer() {
                   Связаться
                 </h3>
                 <a
-                  href="mailto:sitalov-leonid@mail.ru"
+                  href="mailto:sitalov-leonid@project-rai.ru"
                   className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
-                  sitalov-leonid@mail.ru
+                  sitalov-leonid@project-rai.ru
                 </a>
                 <a
                   href="tel:+79286058533"
