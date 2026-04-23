@@ -11,53 +11,20 @@ const sizeMap = {
   xl: "h-96 md:h-[32rem] lg:h-[40rem]",
 };
 
-const LOGO_URL =
+const LOGO_URL_DARK =
   "https://cdn.poehali.dev/projects/55cad316-9392-453f-927d-0b8cefce0524/bucket/beb06a55-57a6-4657-965f-195db0d8096d.png";
 
+const LOGO_URL_LIGHT =
+  "https://cdn.poehali.dev/projects/55cad316-9392-453f-927d-0b8cefce0524/bucket/eb4620ce-5510-46cf-a9a8-0eeadbca3e8e.png";
+
 export default function RaiLogo({ size = "md", className = "", inverted = false }: RaiLogoProps) {
-  if (!inverted) {
-    return (
-      <img
-        src={LOGO_URL}
-        alt="#ПРОЕКТ RAi — Республика Автоматики Интегра"
-        className={`${sizeMap[size]} w-auto object-contain select-none ${className}`}
-        draggable={false}
-      />
-    );
-  }
-
-  const raiMask =
-    "linear-gradient(to right, transparent 0%, transparent 18%, black 18%, black 44%, transparent 44%, transparent 100%)";
-
+  const src = inverted ? LOGO_URL_LIGHT : LOGO_URL_DARK;
   return (
-    <div
-      className={`relative ${sizeMap[size]} w-auto select-none ${className}`}
-      style={{ aspectRatio: "auto" }}
-    >
-      <img
-        src={LOGO_URL}
-        alt="#ПРОЕКТ RAi — Республика Автоматики Интегра"
-        className="h-full w-auto object-contain"
-        style={{
-          filter:
-            "brightness(0) invert(1) drop-shadow(0 0 20px rgba(0, 255, 60, 0.2))",
-        }}
-        draggable={false}
-      />
-      <img
-        src={LOGO_URL}
-        aria-hidden="true"
-        className="absolute inset-0 h-full w-auto object-contain pointer-events-none"
-        style={{
-          WebkitMaskImage: raiMask,
-          maskImage: raiMask,
-          WebkitMaskRepeat: "no-repeat",
-          maskRepeat: "no-repeat",
-          WebkitMaskSize: "100% 100%",
-          maskSize: "100% 100%",
-        }}
-        draggable={false}
-      />
-    </div>
+    <img
+      src={src}
+      alt="#ПРОЕКТ RAi — Республика Автоматики Интегра"
+      className={`${sizeMap[size]} w-auto object-contain select-none ${className}`}
+      draggable={false}
+    />
   );
 }

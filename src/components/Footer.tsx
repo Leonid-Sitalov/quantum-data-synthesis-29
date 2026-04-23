@@ -93,7 +93,15 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 sm:gap-0">
-              <RaiLogo size="xl" inverted />
+              <div className="flex flex-col items-start gap-2">
+                <RaiLogo size="xl" inverted />
+                <a
+                  href="https://project-rai.ru"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-base sm:text-lg tracking-wide font-medium pl-2"
+                >
+                  project-rai.ru
+                </a>
+              </div>
               <div className="flex flex-col items-start sm:items-end gap-1">
                 <p className="text-neutral-500 text-xs sm:text-sm">
                   © {new Date().getFullYear()} Проект RAI. Все права защищены.
